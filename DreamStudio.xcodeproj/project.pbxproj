@@ -7,9 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02AA50AEFE518F2C9064F8CA /* GenerationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA6BA6ED2D769CF00A7BCC0 /* GenerationFeature.swift */; };
 		1CFFFAF5348B7ACF6ED4E315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CB3F3690771A025D6E5ECB /* ContentView.swift */; };
+		2E1E9801EE6020DAFA79101F /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387FBFEA2994221E5FE9CCDC /* CanvasView.swift */; };
+		2F7D86E6C05CB86FE1FCBEFC /* DreamTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDDD56400A50735BECE07E /* DreamTemplate.swift */; };
+		36D1047ED1D6F31D8EA8772E /* DreamStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75976F8FEF8FE71D8D97E39E /* DreamStage.swift */; };
+		3EA1DA343025B91F0C175D20 /* DreamStorageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174D306C8D8E746F4D424DB /* DreamStorageClient.swift */; };
+		6B7A81608257C3470C4FD0CD /* CanvasFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38821A37549A7B87DABAF37E /* CanvasFeature.swift */; };
+		73355358B185A79FB7C0B40A /* OpenClawCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7C218B63D646D87E6C44AC8D /* OpenClawCore */; };
 		925D21B39360153ED9350AB5 /* DreamStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A87C4672DFD5FCE839AFCE9 /* DreamStudioApp.swift */; };
+		95CDD2D195839ECCD5627481 /* DreamProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D2CE5E0FC49B4488018625 /* DreamProviderClient.swift */; };
+		96FF9B2B7A4D873D762D40E8 /* CostFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A69209CF8606CDFC043A6 /* CostFeature.swift */; };
+		9EAB8184C009904DCD9B257C /* ProviderFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3C73DE6C17CC37E6B3E93 /* ProviderFeature.swift */; };
+		A72B8117C62B47A08438B30A /* DreamSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D07CB66E18F2F03501D34D /* DreamSession.swift */; };
 		C25F8CCD0AD7D20DBCB595AC /* DreamStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A8C3E3F043F1D6DB00AF2 /* DreamStudioTests.swift */; };
+		C376B64F7F4FCCDB8E9E1842 /* DreamImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AB16487DB0D093277EB8C /* DreamImageClient.swift */; };
+		C52059E1937124E6559E1F10 /* TemplateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F92680CE23D9FDD128F71 /* TemplateFeature.swift */; };
+		EA0431A1E144E22D634AE08E /* OpenClawSupabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4575B175C2EBC2AEBA20C394 /* OpenClawSupabase */; };
+		EADA8DFFD6590EF4F17D01D1 /* ProviderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED7CB930C61DC1A613050DD /* ProviderSettingsView.swift */; };
+		F00434D6B3FC119E38ACFEAA /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 28B8D6D371A8F9DCC3095E33 /* ComposableArchitecture */; };
+		F4140D16F6A49FE0535AC37E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D261081CAAFC317957EAF7AD /* Supabase */; };
 		F495826E3C1DF7DAF1973A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06C48E5E6D74C54A60786B1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -24,17 +41,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046AB16487DB0D093277EB8C /* DreamImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamImageClient.swift; sourceTree = "<group>"; };
 		1222A772957DC17D48EBE6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2174D306C8D8E746F4D424DB /* DreamStorageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamStorageClient.swift; sourceTree = "<group>"; };
+		387FBFEA2994221E5FE9CCDC /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		38821A37549A7B87DABAF37E /* CanvasFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasFeature.swift; sourceTree = "<group>"; };
+		38E3C73DE6C17CC37E6B3E93 /* ProviderFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderFeature.swift; sourceTree = "<group>"; };
+		51D07CB66E18F2F03501D34D /* DreamSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamSession.swift; sourceTree = "<group>"; };
 		6A87C4672DFD5FCE839AFCE9 /* DreamStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamStudioApp.swift; sourceTree = "<group>"; };
+		75976F8FEF8FE71D8D97E39E /* DreamStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamStage.swift; sourceTree = "<group>"; };
+		86EDDD56400A50735BECE07E /* DreamTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamTemplate.swift; sourceTree = "<group>"; };
 		8BA803D1695D70E4AFC6A0B7 /* DreamStudio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DreamStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CB3F3690771A025D6E5ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D2CE5E0FC49B4488018625 /* DreamProviderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamProviderClient.swift; sourceTree = "<group>"; };
 		A933A038E8271FFD3CB24EAE /* DreamStudioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DreamStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2A69209CF8606CDFC043A6 /* CostFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostFeature.swift; sourceTree = "<group>"; };
+		CFA6BA6ED2D769CF00A7BCC0 /* GenerationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationFeature.swift; sourceTree = "<group>"; };
 		D4DC752244BECDDF5752A4ED /* DreamStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DreamStudio.entitlements; sourceTree = "<group>"; };
+		DED7CB930C61DC1A613050DD /* ProviderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderSettingsView.swift; sourceTree = "<group>"; };
+		EA4F92680CE23D9FDD128F71 /* TemplateFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateFeature.swift; sourceTree = "<group>"; };
 		F06C48E5E6D74C54A60786B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F23A8C3E3F043F1D6DB00AF2 /* DreamStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamStudioTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		F54A43A847B41DBFC7CD78B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00434D6B3FC119E38ACFEAA /* ComposableArchitecture in Frameworks */,
+				F4140D16F6A49FE0535AC37E /* Supabase in Frameworks */,
+				73355358B185A79FB7C0B40A /* OpenClawCore in Frameworks */,
+				EA0431A1E144E22D634AE08E /* OpenClawSupabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		0BEB106D3775123957AD2900 /* GenerationPipeline */ = {
+			isa = PBXGroup;
+			children = (
+				CFA6BA6ED2D769CF00A7BCC0 /* GenerationFeature.swift */,
+			);
+			path = GenerationPipeline;
+			sourceTree = "<group>";
+		};
 		2F0BAA56F5A83DAE16D1DB4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -42,6 +94,55 @@
 				A933A038E8271FFD3CB24EAE /* DreamStudioTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		383C78C12AACF96F66978A9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51D07CB66E18F2F03501D34D /* DreamSession.swift */,
+				75976F8FEF8FE71D8D97E39E /* DreamStage.swift */,
+				86EDDD56400A50735BECE07E /* DreamTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56D1C4DB008BD87083EDA695 /* ProviderConfig */ = {
+			isa = PBXGroup;
+			children = (
+				38E3C73DE6C17CC37E6B3E93 /* ProviderFeature.swift */,
+				DED7CB930C61DC1A613050DD /* ProviderSettingsView.swift */,
+			);
+			path = ProviderConfig;
+			sourceTree = "<group>";
+		};
+		5782BA62460E1C4005B53B29 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F92680CE23D9FDD128F71 /* TemplateFeature.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		6B3638E90B868842B0B8FE83 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				046AB16487DB0D093277EB8C /* DreamImageClient.swift */,
+				93D2CE5E0FC49B4488018625 /* DreamProviderClient.swift */,
+				2174D306C8D8E746F4D424DB /* DreamStorageClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84568DEE6D250D3FB9D5B467 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8CA89283FE74C9BAB8693753 /* Canvas */,
+				EF295D2BFF1380325666D33C /* CostTracking */,
+				0BEB106D3775123957AD2900 /* GenerationPipeline */,
+				56D1C4DB008BD87083EDA695 /* ProviderConfig */,
+				5782BA62460E1C4005B53B29 /* Templates */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 		8843C58B1DC96B0DD909F0FE /* DreamStudio */ = {
@@ -52,8 +153,20 @@
 				D4DC752244BECDDF5752A4ED /* DreamStudio.entitlements */,
 				6A87C4672DFD5FCE839AFCE9 /* DreamStudioApp.swift */,
 				1222A772957DC17D48EBE6DF /* Info.plist */,
+				84568DEE6D250D3FB9D5B467 /* Features */,
+				383C78C12AACF96F66978A9F /* Models */,
+				6B3638E90B868842B0B8FE83 /* Services */,
 			);
 			path = DreamStudio;
+			sourceTree = "<group>";
+		};
+		8CA89283FE74C9BAB8693753 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				38821A37549A7B87DABAF37E /* CanvasFeature.swift */,
+				387FBFEA2994221E5FE9CCDC /* CanvasView.swift */,
+			);
+			path = Canvas;
 			sourceTree = "<group>";
 		};
 		E96A064D24A072672E95C7B8 = {
@@ -73,6 +186,14 @@
 			path = DreamStudioTests;
 			sourceTree = "<group>";
 		};
+		EF295D2BFF1380325666D33C /* CostTracking */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A69209CF8606CDFC043A6 /* CostFeature.swift */,
+			);
+			path = CostTracking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +203,7 @@
 			buildPhases = (
 				352E44143E8EBD09372B1C53 /* Sources */,
 				9FF7B8AF5CA641DB0E5C2DCF /* Resources */,
+				F54A43A847B41DBFC7CD78B7 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -89,6 +211,10 @@
 			);
 			name = DreamStudio;
 			packageProductDependencies = (
+				28B8D6D371A8F9DCC3095E33 /* ComposableArchitecture */,
+				D261081CAAFC317957EAF7AD /* Supabase */,
+				7C218B63D646D87E6C44AC8D /* OpenClawCore */,
+				4575B175C2EBC2AEBA20C394 /* OpenClawSupabase */,
 			);
 			productName = DreamStudio;
 			productReference = 8BA803D1695D70E4AFC6A0B7 /* DreamStudio.app */;
@@ -137,6 +263,11 @@
 			);
 			mainGroup = E96A064D24A072672E95C7B8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D1B2DCEFECABF9FA25C8AFFD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				00287550627DD77567EF8F45 /* XCRemoteSwiftPackageReference "OpenClawKit" */,
+				5EA09E6F6827400E6802E108 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
@@ -171,8 +302,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7A81608257C3470C4FD0CD /* CanvasFeature.swift in Sources */,
+				2E1E9801EE6020DAFA79101F /* CanvasView.swift in Sources */,
 				1CFFFAF5348B7ACF6ED4E315 /* ContentView.swift in Sources */,
+				96FF9B2B7A4D873D762D40E8 /* CostFeature.swift in Sources */,
+				C376B64F7F4FCCDB8E9E1842 /* DreamImageClient.swift in Sources */,
+				95CDD2D195839ECCD5627481 /* DreamProviderClient.swift in Sources */,
+				A72B8117C62B47A08438B30A /* DreamSession.swift in Sources */,
+				36D1047ED1D6F31D8EA8772E /* DreamStage.swift in Sources */,
+				3EA1DA343025B91F0C175D20 /* DreamStorageClient.swift in Sources */,
 				925D21B39360153ED9350AB5 /* DreamStudioApp.swift in Sources */,
+				2F7D86E6C05CB86FE1FCBEFC /* DreamTemplate.swift in Sources */,
+				02AA50AEFE518F2C9064F8CA /* GenerationFeature.swift in Sources */,
+				9EAB8184C009904DCD9B257C /* ProviderFeature.swift in Sources */,
+				EADA8DFFD6590EF4F17D01D1 /* ProviderSettingsView.swift in Sources */,
+				C52059E1937124E6559E1F10 /* TemplateFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +383,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -304,8 +448,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -413,6 +557,56 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00287550627DD77567EF8F45 /* XCRemoteSwiftPackageReference "OpenClawKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Diomandeee/OpenClawKit";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.2;
+			};
+		};
+		5EA09E6F6827400E6802E108 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.0;
+			};
+		};
+		D1B2DCEFECABF9FA25C8AFFD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = exactVersion;
+				version = 1.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28B8D6D371A8F9DCC3095E33 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1B2DCEFECABF9FA25C8AFFD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		4575B175C2EBC2AEBA20C394 /* OpenClawSupabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00287550627DD77567EF8F45 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawSupabase;
+		};
+		7C218B63D646D87E6C44AC8D /* OpenClawCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00287550627DD77567EF8F45 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawCore;
+		};
+		D261081CAAFC317957EAF7AD /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EA09E6F6827400E6802E108 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5039F0ECE225222C2098AD7 /* Project object */;
 }
